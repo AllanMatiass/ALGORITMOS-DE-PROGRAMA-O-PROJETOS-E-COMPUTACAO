@@ -14,10 +14,8 @@ square = 5
 perimetro = 4 * square
 area = square**2
 
-# area
 print(f'A área de {square} é: {area}²')
 
-# perimetro
 print('O perímetro de', square, 'é:', perimetro)
 
 
