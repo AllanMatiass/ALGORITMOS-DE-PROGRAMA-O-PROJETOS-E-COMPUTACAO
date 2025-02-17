@@ -9,13 +9,14 @@ try:
     # determine a sua área e seu perímetro
 
 
-    square = int(input('Digite o número para calcular a área do quadrado: '))
-    perimetro = 4 * square
-    area = square**2
+    side_one = int(input('Digite um número para calcular a área do quadrado: '))
+    side_two = int(input('Digite outro número para calcular a área do quadrado: '))
+    perimeter = 2 * (side_one + side_two)
+    area = side_one * side_two
 
     print()
-    print(f'A área de {square} é: {area}²')
-    print('O perímetro de', square, 'é:', perimetro)
+    print(f'A área de {side_one} é: {area}²')
+    print('O perímetro de', side_one, 'é:', perimeter)
 
 except ValueError:
     print('Digite apenas numeros;')
