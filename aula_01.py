@@ -15,8 +15,8 @@ try:
     area = side_one * side_two
 
     print()
-    print(f'A área de {side_one} é: {area}²')
-    print('O perímetro de', side_one, 'é:', perimeter)
+    print(f'A área de {side_one} e {side_two} é: {area}')
+    print('O perímetro de', side_one, 'e', side_two, 'é:', perimeter)
 
 except ValueError:
     print('Digite apenas numeros;')
