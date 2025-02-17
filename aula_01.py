@@ -37,4 +37,4 @@ rest_result = (number_one % number_two)
 print('Parte inteira da divisão:', result)
 
 print()
-print('Resto da divisão', rest_result)
+print(f'Resto da divisão: {rest_result:.2f}')
